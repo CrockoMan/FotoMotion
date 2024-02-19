@@ -196,23 +196,11 @@ while (1)
             }
 
             cRecv=0;
-/*
-#ifdef DEBUG
-            if(cRecvBuf[0]==StartCmd[0]) putchar('0');
-            if(cRecvBuf[1]==StartCmd[1]) putchar('1');
-            if(cRecvBuf[2]==StartCmd[2]) putchar('2');
-            if(cRecvBuf[3]==StartCmd[3]) putchar('3');
-            if(cRecvBuf[4]==StartCmd[4]) putchar('4');
-            putchar(' ');
-#endif
-*/
             cRecvBuf[0]=0;
             cRecvBuf[1]=0;
             cRecvBuf[2]=0;
             cRecvBuf[3]=0;
             cRecvBuf[4]=0;
-
-//            SetBit(GIMSK,INT1);
         }
 
       }
